@@ -2,7 +2,7 @@
 @section('content')
 <div class="page-header">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
+    <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">{{trans('index.Dashboard')}}</a></li>
     <li class="breadcrumb-item"><a href="{{ route('admin.users') }}">Users Management</a></li>
     <li class="breadcrumb-item active">Add</li>
   </ol>
